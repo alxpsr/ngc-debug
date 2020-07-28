@@ -6,7 +6,7 @@ panels.elements.createSidebarPane(
         function getNodeV2() {            
             if (typeof ng !== 'undefined') {
                 if (ng.probe && ng.probe($0)) {
-                    console.log('legacy');
+                    
                     return {
                         "Component": ng.probe($0).componentInstance,
                         "Parent": ng.probe($0).parent ? ng.probe($0).parent.componentInstance : 'root level',
