@@ -40,9 +40,7 @@ panels.elements.createSidebarPane(
                         "_debug": ng.probe($0)
                     }
                 } else {
-                    return {
-                        "Component": getClosestComponent($0),
-                    }
+                    return getClosestComponent($0);
                 }
             }
         }
