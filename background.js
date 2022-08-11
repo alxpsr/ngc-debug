@@ -41,14 +41,10 @@ panels.elements.createSidebarPane(
                     }
                 } else {
                     return {
-                        // "Component": ng.getComponent($0),
                         "Component": getClosestComponent($0),
                     }
                 }
             }
-
-
-            // return { "message": "content is not readable" };
         }
 
         function updatePane() {
