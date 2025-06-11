@@ -38,7 +38,8 @@ panels.elements.createSidebarPane(
 
         return {
           Component: ref,
-          Parent: parent ? getClosestComponent(parent, ng) : null
+          Parent: parent ? getClosestComponent(parent, ng) : null,
+          Directives: ng.getDirectives($0)
         };
       }
 
