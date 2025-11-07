@@ -1,6 +1,6 @@
 {
   "name": "ngc-debug",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Lightweight Angular component debugger extension for Chrome",
   "scripts": {
     "build": "rm -rf dist && rollup -c"

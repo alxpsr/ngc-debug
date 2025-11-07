@@ -1,8 +1,8 @@
 {
-    "manifest_version": 2,
+    "manifest_version": 3,
     "name": "ngc-debug",
     "description": "Lightweight angular-component debugger",
-    "version": "0.7",
+    "version": "0.8",
     "permissions": [],
     "devtools_page": "index.html",
     "icons": {
